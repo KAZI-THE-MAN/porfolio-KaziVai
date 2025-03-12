@@ -4,18 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>porfolio-KaziVai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio-kazi.css">
+    <script src="https://kit.fontawesome.com/ee89bf97f6.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
+<body class="work-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3>
+                <h3 class="nav-mary dark1">K A <span class="org">Z</span> I</h3>
+                <ul>
+                    <li><a class="dark2" href="">Portfolio</a></li>
+                    <li><a class="dark2" href="">Blog</a></li>
+                    <li><a href=""><button class="btn-orange">Hire me</button></a></li>
+                </ul>
+            </h3>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="greetings-sub dark2">Hi, I  am</h4>
+                <h1 class="greetings-title">Kazi Mehedi</h1>
+                <p>I am professional Mernstack Developer. If you need any suggestion, contact with me.</p>
+                <button type="button" class="btn-orange"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button type="button" class="btn-orange"><i class="fa-solid fa-phone"></i> Contact</button>
+            </div>
+            <img class="banner-img" src="images/hardy.png" alt="">
+
+        </div>
 
     </header>
 
     <main>
+        <section class="about secondary-bg">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets clients requirements in our meta</p>
+
+        <!-- .about-items>.about-item*4>p.item-title+p.item-details -->
+        <div class="about-items">
+            <div class="about-item">
+                <p class="item-title">Name:</p>
+                <p class="item-details">Mary Hardy</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email:</p>
+                <p class="item-details">info@gmail.com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date of birth:</p>
+                <p class="item-details">27 September, 2000</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">From:</p>
+                <p class="item-details">Gazipur</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="skills">
+            <h3 class="section-title">What I do</h3>
+            <p class="section-description">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+
+            <!-- .skills-container>.skills*4>img.skill-icon+h4.skill-title+p.skill-description -->
+            <div class="skills-container">
+                <div class="skills">
+                    <img src="images/icons/js.png" alt="" class="skill-icon">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/react.png" alt="" class="skill-icon">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/nodejs.png" alt="" class="skill-icon">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/mongo.png" alt="" class="skill-icon">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume">
+            <h3 class="resume-title">A summary of My Resume</h3>
+
+            <div class="resume-container">
+                <!-- .resume-cols*2>h3.resume-cols-title>.experience*3+h4.experience-title+h4experience-subtitle+p.experience-description -->
+                <div class="resume-cols">
+                    <h3 class="resume-cols-title">My Education</h3>
+                        <div class="experience">
+                            <h4 class="experience-title">Master in Computer Engineering</h4>
+                            <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                        <hr>
+                        <div class="experience">
+                            <h4 class="experience-title">Master in Computer Engineering</h4>
+                            <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                        <hr>
+                        <div class="experience">
+                            <h4 class="experience-title">Master in Computer Engineering</h4>
+                            <h5 class="experience-subtitle">Harvard University / 2015 - 2017</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                </div>
+                <div class="resume-cols">
+                    <h3 class="resume-cols-title">My Experience</h3>
+                        <div class="experience">
+                            <h4 class="experience-title">Jr. Font End Developer</h4>
+                            <h5 class="experience-subtitle">Dribbble Inc / 2018 - 2022</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                        <hr>
+                        <div class="experience">
+                            <h4 class="experience-title">Jr. Font End Developer</h4>
+                            <h5 class="experience-subtitle">Dribbble Inc / 2018 - 2022</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                        <hr>
+                        <div class="experience">
+                            <h4 class="experience-title">Jr. Font End Developer</h4>
+                            <h5 class="experience-subtitle">Dribbble Inc / 2018 - 2022</h5>
+                            <p class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="resume-btn">
+                <button type="button"class="btn-orange"><i class="fa-solid fa-download"></i> Download CV</button>
+            </div>
+        </section>
 
     </main>
 
-    <footer>
-        
+    <footer class="secondary-bg foot">
+        <div class="footer-cols">
+            <h3 class="foot-title1">Lets Connect</h3>
+            <p class="foot-description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <br>
+            <div>
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+
+        </div>
+        <div class="footer-cols">
+            <h3 class="foot-title2">Let’s Message me</h3>
+            <input type="text" name="" id="txt" placeholder="Your name">
+            <br>
+            <input type="email" name="" id="em" placeholder="Your email">
+            <br>
+            <textarea name="" id="" rows="10" cols="30" placeholder="Message"></textarea>
+            <button class="btn-orange" type="button" value="Submit">Submit</button>
+
+        </div>
+
     </footer>
     
 </body>
