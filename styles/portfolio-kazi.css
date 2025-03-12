@@ -161,7 +161,7 @@ text-align: left;
 
 .resume-container{
     display: flex;
-    gap: 24px;
+    gap: 50px;
 }
 
 .resume-cols-title{
