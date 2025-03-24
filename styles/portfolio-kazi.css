@@ -279,5 +279,30 @@ textarea{
     border-radius: 5px;
 }
 
+/* visibility hide */
+/* .hidden{
+    visibility: hidden;
+} */
 
+/* for smaller device */
+
+@media screen and (max-width:776px){
+    .about-items,.resume-container,footer,.skills-container,.banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+footer{
+    padding:20px;
+}
+.footer-cols{
+    width: 100%;
+}
+footer input[type="text"],footer input[type="email"],textarea{
+    width: calc(100%-40px);
+}
+.banner{
+    gap: 20px;
+}
+}
 
